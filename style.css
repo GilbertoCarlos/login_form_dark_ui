@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin:0px;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    background: #739cb8;
+     
+  }
+
+  .box {
+    width: 280px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius:20px;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    
+     
+  }
+  .titulo{
+      transform: translateY(-85px);
+      position: absolute;
+      font-size: 1.5rem;
+      left: 30%;
+      color: white;
+  }
+  .box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+   
+  .text-input {
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+  }
+   
+   
+  .text-input:focus {
+    width: 250px;
+    border-color: #2ecc71;
+  }
+   
+  .box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+   
+  .box input[type="submit"]:hover {
+    background: #2ecc71;
+  }
+
+  /* --------------- 1000px Screens --------------- */
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+    .box{
+        width: 250px;
+        padding: 25px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .box h1{
+        font-size: 1.5rem;
+    }
+
+    .text-input{
+        width: 170px;
+        margin: 20px auto;
+        font-size: .9rem;
+    }
+    .text-input:focus{
+        width: 190px
+    }
+    .box input[type="submit"] {
+        margin: 15px auto; 
+        font-size: 0.9rem; 
+    }
+
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+}
